@@ -1,0 +1,9 @@
+.sidebar {
+    height: 100vh; /* 100% chiều cao viewport */
+    position: fixed; /* Giữ sidebar cố định */
+    top: 0;
+    left: 0;
+    background-color: #343a40; /* Màu nền sidebar */
+    color: white;
+    padding-top: 20px;
+}
