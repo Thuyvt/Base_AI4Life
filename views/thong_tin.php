@@ -22,6 +22,10 @@
                 <label for="address" class="form-label">Ngày sinh:</label>
                 <input type="date" class="form-control" id="date_of_birth" name="date_of_birth">
             </div>
+            <div class="form-group mt-3">
+                <label for="address" class="form-label">Giới tính:</label>
+                <input type="text" class="form-control" id="gender" name="gender">
+            </div>
             <button type="submit" class="btn btn-primary mt-3" name="submitInfo">Gửi thông tin</button>
         </form>
 

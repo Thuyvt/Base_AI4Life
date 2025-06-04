@@ -41,6 +41,7 @@ if (!function_exists('openrouter_api')) {
             "Authorization: Bearer ". API_OPENROUTER_KEY,
             "Content-Type: application/json"
         ]);
+        
         $response = curl_exec($ch);
         curl_close($ch);
 

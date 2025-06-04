@@ -32,7 +32,7 @@ define('MODEL_OPTIONS', [
     'deepseek/deepseek-r1-0528-qwen3-8b:free' => 'Deepseek-r1-0528-qwen3-8b',
 ]);
 define('MODEL_DEEPSEEK_R1', 'deepseek/deepseek-r1-0528:free');
-
-define('API_OPENROUTER_KEY', "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");
+// ĐIỀN API KEY CỦA CÁC BẠN
+define('API_OPENROUTER_KEY', "");
 // define('API_OPENROUTER_URL', "https://openrouter.ai/api/v1/chat/completions");
 const API_OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions";
